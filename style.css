@@ -443,6 +443,10 @@ text-transform: uppercase;
     width: 100%;
     padding: 40px 0px;
 }
+.professionals, .testmonials{
+    max-width: 1200px;
+    margin: auto;
+}
 .projectshowcase{
     width: 100%;
     margin: auto;
@@ -540,12 +544,13 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 .peoplecard{
+    width: 23%;
     position: relative;
     height: auto;
 
 }
 .peoplecard .teamphoto{
-    width: 250px;
+    width: 100%;
     min-height: 300px;
     /* background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg"); */
     background-position: 50% 0%;
@@ -660,19 +665,23 @@ text-transform: uppercase;
 .wordscontainerright{
     padding-top: 50px;
 }
+
 .topround{
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 34px;
-    position: absolute;
-    top: -30px;
-    left: 36%;
+    margin: auto;
     background: var(--primary-gradient);
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    position: absolute;
+    left: calc(40% + 30px);
+    left: 50%;
+    top: -30px;
+    margin-left: -30px;
 }
 .one{
     width: 90%;
@@ -822,7 +831,7 @@ footer{
     position: relative;
 }
 .info{
-    width: 30%;
+    width: 100%;
     padding: 0px 40px;
 }
 .footercontainer p{
@@ -831,7 +840,8 @@ footer{
 .footercontainer h4{
     font-size: 20px;
     font-weight: 500;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
 }
 .info:first-child p{
     line-height: 2;
@@ -843,22 +853,9 @@ footer{
     display: flex;
     align-items: center;
 }
-.footer-title::after{
-    content: "";
-    z-index: 2;
-    width: 40%;
-    height: 2px;
-    background-color: var(--paimary-color);
-    position: absolute;
-    right: 0px;
-    top:14px;
-}
 .footer h4{
     z-index: 2;
     background-color:#0a1229; 
-}
-.after::after{
-    width: 50%;
 }
 .info ul{
     list-style: none;
@@ -909,13 +906,41 @@ footer{
 .teamcontent{
     font-size: 20px;
 }
-.footer-title{
-    z-index: 2;
-    text-shadow: 52px 2px 19px rgba(0,0,0,1);
-}
 .ser-sym{
  color: var(--paimary-color);
  font-size: 40px;
  margin-left: 5px;
  margin-bottom: 15px;
+}
+.prof-container, .specification-content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.specification  .specification-content{
+    padding-left: 0px;
+    padding-right: 00px;
+}
+.footer-title-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+.footer-title{
+    background-color: #0a1229;
+    padding-right: 6px;
+    width: auto;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    top: -21px;
+    
+}
+.footer-title-line{
+    width: 100%;
+    height: 2px;
+    background-color: var(--paimary-color);
+
 }
