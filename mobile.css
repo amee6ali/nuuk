@@ -9,6 +9,18 @@
     background-color: var(--paimary-color);
 
 }
+.showcase-content{
+    max-width: 1200px;
+    margin: auto;
+    height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+}
+.showcase-image{
+    height: 90vh;
+}
 .menusection .mainmenu{
     display: none;
 }
@@ -33,24 +45,18 @@
 .showcase-image{
     padding-top: 0rem;
 }
-.showcase-left h1{
-    padding-top: 100px;
+.showcase-left > h1{
     font-size: 40px;
+}
+.showcase-left{
+    padding: 70px 120px 0px 20px;
     color: #fff;
 }
 .contact-info{
-    position: relative;
-
-    width: 100%;
-    height: 200px;
-    background: var(--primary-gradient);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px  10px;
+    display: none;
 }
 .showcase-right{
-    bottom: 126px;
+    bottom: 0px;
 }
 .specification-card-container{
     flex-direction: column;
@@ -62,6 +68,7 @@
 }
 .about-flexx-container{
     flex-direction: column;
+    padding-bottom: 0px 4px;
 }
 .about-flexx-container .about-right , .about-flexx-container .about-left{
     width: 100%;
@@ -76,18 +83,18 @@
     width: 100%;
     padding: 20px 20px;
 }
-/* .projectshowcase{
+.projectshowcase{
     width: 100%;
     flex-direction: column;
 }
 .prijectimg{
-    width: 100%;
+    width: 90%;
     margin: 3%;
-} */
+} 
 .showcase-image-bottom-headline-flex h1{
     text-align: center;
-    font-size: 28px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -95,7 +102,7 @@
     text-align: center;
 }
 .showcase-image-bottom-headline-flex h3{
-    font-size: 18px;
+    font-size: 14px;
 }
 .people-card-container{
     margin: 70px auto 10px auto;
@@ -130,20 +137,223 @@
     width: 100%;
     padding: 30px;
 }
-
+.wordscontainerleft{
+    padding-bottom: 0px;
+}
+.wordscontainerright{
+    padding-top: 0px;
+}
 .boxone{
     position: relative;
     display: block;
     width: 100%;
 
 }
-
-    .topround{
+.topround{
         color: white;
-        display: flex;
-    
-        top: -30px;
-        left: 46%;
-   
- 
-    }
+        padding-top: 10px;
+        display: inline-block;
+        left: 40%;
+        background: -pr;
+        /* position: relative; */
+}
+.specification-container > h1{
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.specification-content > h1{
+    z-index: 2;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    left: -80px;
+}
+.specification-content{
+    padding-top: 30px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.specification-card-container{
+    padding: 15px 10px;
+}
+.bigtitle{
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.aboutcounts{
+    padding: 15px 10px;
+}
+.toptitle{
+    position: relative;
+    z-index: 2;
+   text-align: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.about-right p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #919197;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.specification-container{
+    width: 90%;
+    margin: auto;
+}
+.projectshowcase{
+    padding: 20px 0px;
+}
+.prof-container{
+    position: relative;
+    top: 80px;
+}
+.professionals .specification-content{
+    padding-top: 0px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.testmonial-left-content .clientstitle{
+    color: rgb(255, 255, 255);
+    /* color: rgba(44, 44, 146, 0.4); */
+    font-size: 50px;
+    letter-spacing: 11px;
+    position: absolute;
+    top:-35px;
+    left: 0px;
+}
+.testmonial-left-content{
+    position: relative;
+    padding:0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.testmonial-left-content{
+    position: relative;
+    padding:0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.testmonial-left-content h2{
+    font-size: 28px;
+}
+.project-fullW {
+    position: relative;
+    background-color:#f7f8fc;
+}
+.section-blog{
+    position: relative;
+}
+.blogcontainer{
+    padding: 0px 10px;
+}
+.blogcontainer .bigtitle{
+    position: absolute;
+    left: -10px;
+}
+.blog .specification-content h1{
+    padding-bottom: 20px;
+}
+.blog-flex-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;padding-bottom: 70px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.blogcard{
+    position: relative;
+    width: 100%;
+    background: var(--primary-gradient);
+    color: #fff;
+    margin-bottom: 55px;
+}
+.blogcontainer{
+    width: 95%;
+    margin: auto;
+}
+.clients-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    max-width: 1200px;
+    padding: 60px 20px;
+}
+.clients-container div{
+ padding-bottom: 50px;
+
+}
+.cl:not(:first-child){
+    font-size: 60px;
+}
+footer{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 30px 10px 0px 10px;
+    border-top: 1px solid #2f3038;
+    background-color: #0a1229;
+    letter-spacing: 1px;
+}
+.footercontainer{
+    height: 950px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+.info{
+    width: 100%;
+    padding: 0px 40px;
+    margin-bottom: 50px;
+}
+.footer-title::after{
+    content: "";
+    z-index: 2;
+    width:60% ;
+    height: 2px;
+    background-color: var(--paimary-color);
+    position: absolute;
+    right: 0px;
+    top:14px;
+}
+/* .footer-title{
+    display: inline-block;
+} */
+.after::after{
+    width: 70%;
+}
+.specification-card-container .card{
+    margin-bottom: 60px;
+}
