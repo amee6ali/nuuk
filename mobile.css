@@ -325,7 +325,7 @@ footer{
     letter-spacing: 1px;
 }
 .footercontainer{
-    height: 950px;
+    height: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
