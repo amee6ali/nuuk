@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 .showcase-image{
     height: 90vh;
@@ -153,8 +153,7 @@
         color: white;
         padding-top: 10px;
         display: inline-block;
-        left: 40%;
-        background: -pr;
+        /* left: 40%; */
         /* position: relative; */
 }
 .specification-container > h1{
@@ -319,13 +318,13 @@ footer{
     position: relative;
     z-index: 1;
     width: 100%;
-    padding: 30px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
     border-top: 1px solid #2f3038;
     background-color: #0a1229;
     letter-spacing: 1px;
 }
 .footercontainer{
-    height: 1200px;
+    height: 1100px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -338,25 +337,17 @@ footer{
     padding: 0px 40px;
     margin-bottom: 50px;
 }
-.footer-title::after{
-    content: "";
-    z-index: 2;
-    width:60% ;
-    height: 2px;
-    background-color: var(--paimary-color);
-    position: absolute;
-    right: 0px;
-    top:14px;
-}
-/* .footer-title{
-    display: inline-block;
-} */
-.after::after{
-    width: 70%;
-}
 .specification-card-container .card{
     margin-bottom: 60px;
 }
 .aboutustitle{
     left: 0px;
+}
+.prof-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.peoplecard {
+    width: 100%;
+    position: relative;
 }
